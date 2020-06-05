@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html component-uri="document//layout/site//layout/page/home" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" name="description">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" name="generator">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Fashion Design, Africa">
+<meta name="generator" content="Rays Enterprise 1.0">
+<!-- base href="https://www.fashiontunnel.com/" -->
+<!-- ICON --><link rel="shortcut icon" href="https://www.fashiontunnel.com/favicon.ico" type="image/ico">
+<!-- LOCAL CSS --><link class="assets-domain-add" rel="stylesheet" href="index_files/native_002.css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/native.css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/native_003.css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/dramatic_005.css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/dramatic_006.css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/dramatic_004.css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/dramatic.css">
+<link rel="stylesheet" class="document-css">
+<link class="assets-domain-add" rel="stylesheet" href="index_files/dramatic_002.css">
+<link crossorigin="" class="assets-domain-add" rel="stylesheet" href="index_files/dramatic_003.css">
+<link crossorigin="" class="assets-domain-add" rel="stylesheet" href="index_files/animate.css">
+<link crossorigin="" class="assets-domain-add" rel="stylesheet" href="index_files/magic.css">
+<link crossorigin="" class="assets-domain-add" rel="stylesheet" href="index_files/font-awesome.css">
+<!-- EXTERNAL STYLING CSS --><!----><link rel="stylesheet" href="index_files/materialdesignicons.css">
+<link rel="stylesheet" href="index_files/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" href="index_files/css.css">
+<link rel="stylesheet" href="index_files/css_003.css">
+<!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100&subset=greek-ext" />--><!-- HTML IMPORT --><link href="https://www.fashiontunnel.com/templates.html" rel="import">
+<template data-uri="application/control/button/listing">
+	<ul class="">
+    </ul>
+</template>
+
+<template data-uri="application/control/button/view">
+          <button role="presentation" class="radius-sm bold pd-hz-sm kids--pd-md flex-center apply-theme with-shadow with-states cursor-default" dramatic-ripples="true" dramatic-button="userole:presentation">
+            <span class="presentation-icon border-rt with-border-color d-none"></span>
+            <span class="presentation-label"></span>
+            <span class="presentation-status button-progress d-none"></span>
+          </button>
+</template>
+
+<template data-uri="application/control/button/listitem">
+	<li>
+    </li>
+</template>
+
+<template data-uri="application/input/content/view">
+          
+      <textarea rows="10" class="apply-color" dramatic-contentinput="true"></textarea>
+</template>
+
+<template data-uri="application/input/view">
+          
+      <input type="text" class="apply-color">
+
+</template>
+
+<template data-uri="application/input/toggle/slider">
+		<div role="switch" class="pos-rel ht-25 wt-full theme-dark flex-y-center" dramatic-slider="true">
+          <div class="switch-track pos-rel wt-full pd-xs radius-lg border border-color border-opacity-xs background-color z-index-0"></div>
+          <div class="switch-thumb pos-abs-lft square-25 radius-full d-inline-block shadow shadow-blur-sm shadow-btm-xs perspective-shadow-spread-xs color z-index-10" style="background-color:currentColor"></div>
+        </div>
+</template>
+
+<template data-uri="application/input/toggle/check">
+		<div role="toggle" class="pos-rel flex-y-center radius-lg background-color" dramatic-toggle="true">
+          <div class="toggle-thumb pos-rel square-25 radius-full d-inline-block colorshadow shadow-sm perspective-shadow-spead-xs"></div>
+        </div>
+</template>
+
+<template data-uri="application/input/toggle/switch">
+		<div role="switch" class="pos-rel ht-25 wt-50 theme-dark flex-y-center" dramatic-switch="true">
+          <div class="switch-track pos-rel wt-full pd-top-md radius-lg border border-color border-opacity-xs background-color z-index-0"></div>
+          <div class="switch-thumb pos-abs-lft square-25 radius-full d-inline-block shadow shadow-blur-sm shadow-btm-xs perspective-shadow-spread-xs color z-index-10" style="background-color:currentColor"></div>
+        </div>
+</template>
+
+<template data-uri="application/input/datalist/dialog">
+            
+            <div role="dialog" aria-hidden="true" aria-expanded="undefined" class="pos-abs-lft min-wt-full max-200 overflow-hidden shadow shadow-blur-sm perspective-shadow-spread-xs shadow-btm-xs z-index-10">
+              <div class="dialog-label pd-md z-index-10"></div>
+            </div>
+
+</template>
+
+<template data-uri="application/input/optgroup/view">
+
+	<optgroup></optgroup>
+</template>
+
+<template data-uri="application/input/select/entity/tile/view">
+
+     <ul dramatic-selectinput="true" class="d-flex kids--mg-sm kids--square-35 bold txt-xs list-style-none">
+
+</ul></template>
+
+<template data-uri="application/input/select/view">
+
+	<select dramatic-selectinput="true"></select>
+</template>
+
+<template data-uri="application/input/file/view">
+      
+      <div data-role="upload" class="pos-rel mg-vt-md pd-md txt-align-cntr">
+        
+        <div class="upload-previewArea flex-center flex-wrap kids--ht-50 kids--pd-md">
+          <div class="upload-preview flex-y-center kids--d-block anim-zoom-in d-none"></div>
+        </div>
+        <div class="pos-rel ht-100"></div>
+        
+        <div class="upload-dropArea overlay flex-x-center flex-y-end with-active-color opacity-md hover-opacity-xl active-opacity-xl transition-filter cursor-default">
+          <div class="upload-legend pos-rel ht-100 flex-center border-top-dashed">
+            <div class="kids--pd-xs">
+              <span class="upload-drag txt-xl fa fa-arrow-up"></span>
+              <div class="upload-drag">Choose a file or Drag one here</div>
+            </div>
+          </div>
+          
+          <!-- We must not use display none on the input element. For accessibility reasons -->
+          <input class="upload-input transition-filter" style="width:0px; height:0px; overflow:hidden" type="file" dramatic-fileinput="selectors:{uploadArea:{closest:*[data-role~=upload];}; dropArea:@uploadArea.dropArea; previewArea:@uploadArea.previewArea; preview:@uploadArea.preview;}">
+          
+          <div class="overlay border-dashed border-md opacity-md"></div>
+        </div>    
+      </div>
+
+</template>
+
+<template data-uri="application/cta/view">
+          <div role="presentation" class="radius-xs kids-pd-md flex-center color hover-color background-color hover-background-color">
+            <span class="presentation-art d-none"></span>
+            <span class="presentation-label"></span>
+            <span class="presentation-cue d-none"></span>
+          </div>
+</template>
+
+<template data-uri="application/fields/view">
+		
+            <div role="form view" class="apply-theme with-shadow shadow-blur-md shadow-spread-in-sm shadow-btm-xs shadow-opacity-md radius-sm overflow-hidden" dramatic-inputcollection="userole:view">         
+			  
+              <div class="pos-rel">
+                <div class="view-header pos-rel z-index-10"></div>
+                <div class="pos-rel border-top-dashed apply-border-color">
+                  <div class="view-progress pos-abs overlay wt-full flex-center d-none"></div>
+                  <div class="view-alerts col-grows col-12--on-md flex-order-first--on-md pos-rel pd-md d-none"></div>
+                  <div id="main-form" class="view-body pos-rel pd-lg flex-y-end flex-wrap kids--col-grows kids--col-12--on-md"></div>
+                </div>
+              </div>
+            
+            </div>
+</template>
+
+<template data-uri="application/fields/editable/listing">
+		  
+          
+                <div data-role="listing" class="mg-btm-md with-background-theme-white radius-md shadow-md">
+                  <div class="listing-header b with-shadow shadow-blur-lg"></div>
+                  <div class="pd-sm kids--mg-sm">
+                    <div class="listing-controls with-theme-light with-shadow shadow-btm-xs radius-md"></div>
+                    <ul class="listing-body mg-top-md"></ul>
+                  </div>
+                </div>
+
+</template>
+
+<template data-uri="application/fields/editable/multistage/entry">
+		
+          <div role="form entry" dramatic-inputcollection="userole:entry">         
+            
+            <div class="pos-rel pd-md bold txt-align-cntr">
+              <div class="entry-label d-none"></div>
+              <div class="entry-desc d-none"></div>
+            </div>
+            
+            <!--
+                transitions:[{entry:{play:fade_in}; exit:{play:slide/~Dir/}; timing:{delay:400};},];
+            -->
+            <div class="pd-md with-theme-white radius-md">         
+              <div class="links-container with-theme-light pos-rel ht-50 flex-center"></div>
+              
+              <div class="entry-fields pos-rel flex-y-end kids--col-grows min-ht-100 overflow-hidden" dramatic-transitioncollection="
+              	selectors:{buttons:{navsContainer.find:.entry-buttons};}; 
+                timing:{delay:400}; 
+                orientation:horizontal;
+                allowLoop:FALSE;
+                behaviours:{!(items.last.selected || items.last.deselecting):{buttons:d-none};};
+              "></div>
+               
+              <div class="navs-container flex-x-separate kids--col-grows pd-md">
+                <div class="pos-rel">
+                  <button class="flex-y-center with-theme-white with-states d-none" dramatic-ripples="true" rel="prev"><span class="mg-rt-md fa fa-chevron-left"></span> Back</button>
+                </div>
+                <div class="pos-rel flex-x-end flex-y-center">
+                  <button class="flex-y-center with-theme-primary-alt with-states d-none" dramatic-ripples="true" rel="next">Next <span class="mg-lft-md fa fa-chevron-right"></span></button>
+                  <div class="entry-buttons d-none anim-zoom-in animation-x-fast"></div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+</template>
+
+<template data-uri="application/fields/editable/multistage/category">
+		
+          	<section data-role="category transitionitem" class="pos-abs col-12" dramatic-transitionitem="true">
+              <span class="transition-item-link category-tooltip pd-sm radius-full mg-md apply-background-color cursor-pointer transition-padding transition-x-fast" dramatic-ripples="true" rel="link"></span>
+              <div class="category-content pos-rel flex-y-end flex-wrap kids--col-grows"></div>
+            </section>
+</template>
+
+<template data-uri="application/fields/editable/listitem">
+		  
+        <li data-role="listitem" class="border-lft border-sm with-border-color">
+          <div class="listitem-component"></div>
+          <div class="listitem-fields pd-md"></div>
+        </li>
+</template>
+
+<template data-uri="application/window/split/view">
+
+        <div role="window" class="pos-rel flex-x-center flex-y-stretch" dramatic-window="timing:{duration:600; cancelForCss:TRUE}; bindings:{maximizing || maximized:{secondary.class:col-12; primary.class:pd-hz-none}; minimizing || minimized:{secondary.class:col-0}; restoring || restored:{secondary.class:col-9 col-12--on-md}; !maximized:{primary.class:col-grows}; maximizing:{primary.play:fadeOut}; restoring &amp;&amp; loaded:{primary.play:fadeIn}; restoring &amp;&amp; !loaded:{secondary.play:fadeIn}; minimizing &amp;&amp; loaded:{secondary.play:fadeOut}; !restored:{controlClose.class:d-none};}; resourceTypes:a; responseSelector:.page-main">          
+         
+          <!-- MAIN -->
+          <section class="window-primary col-grows max-wt-1000 pd-sm overflow-hidden"></section>
+          
+          <section class="window-secondary flex-y-stretch col-0 z-index-10 transition-all">
+            <div title="Back to parent view" class="window-controlClose wt-0 flex-x-center border-lft-dashed aplly-border-color opacity-lg hover-opacity-full cursor-pointer d-none z-index-50">
+              <div class="pos-sticky-top min-wt-35 ht-35 mg-top-md flex-y-center radius-full flex-center with-theme-white with-shadow shadow-blur-sm shadow-spread-in-xs shadow-btm-xs">
+                <span class="txt-sm fa fa-arrow-left"></span>
+              </div>
+            </div>
+            <div class="col-grows pos-rel">
+              <div class="window-status define-theme-primary">
+                <div class="window-progress pos-abs overlay flex-center d-none"></div>
+              </div>
+              
+              <!-- TARGET -->
+              <div class="window-target"></div>
+            </div>
+          </section>
+        
+        </div>
+
+</template>
+
+<template data-uri="application/modal/confirm">
+		<div role="progress" class="pos-rel wt-full pd-top-xs overflow-hidden background-color" dramatic-linearprogress="true">
+          <div class="progress-indicator pos-abs txt-align-cntr ht-full d-inline-block color" style="background-color:currentColor"></div>
+        </div>
+</template>
+
+<template data-uri="application/modal/alert">
+		<div role="progress" class="pos-rel wt-full pd-top-xs overflow-hidden background-color" dramatic-linearprogress="true">
+          <div class="progress-indicator pos-abs txt-align-cntr ht-full d-inline-block color" style="background-color:currentColor"></div>
+        </div>
+</template>
+
+<template data-uri="application/modal/prompt">
+		<div role="progress" class="pos-rel wt-full pd-top-xs overflow-hidden background-color" dramatic-linearprogress="true">
+          <div class="progress-indicator pos-abs txt-align-cntr ht-full d-inline-block color" style="background-color:currentColor"></div>
+        </div>
+</template>
+
+<template data-uri="application/modal/modal">
+		<div role="progress" class="pos-rel wt-full pd-top-xs overflow-hidden background-color" dramatic-linearprogress="true">
+          <div class="progress-indicator pos-abs txt-align-cntr ht-full d-inline-block color" style="background-color:currentColor"></div>
+        </div>
+</template>
+
+<template data-uri="application/progress/circular-48px">
+        <svg role="progressbar" style="width:48px; height:48px" viewBox="0 0 48 48" dramatic-circularprogress="true" indeterminate="true">
+          <circle class="progressbar-indicator progressbar-trail apply-color" cx="24px" cy="24px" r="20px" fill="none"></circle>
+        </svg>
+</template>
+
+<template data-uri="application/progress/circular-24px">
+        <svg role="progressbar" style="width:24px; height:24px" viewBox="0 0 24 24" dramatic-circularprogress="true" indeterminate="true">
+          <circle class="progressbar-indicator progressbar-trail apply-color" cx="12px" cy="12px" r="10px" fill="none"></circle>
+        </svg>
+</template>
+
+<template data-uri="application/progress/circular-18px">
+        <svg role="progressbar" style="width:18px; height:18px" viewBox="0 0 18 18" dramatic-circularprogress="true" indeterminate="true">
+          <circle class="progressbar-indicator progressbar-trail apply-color" cx="9px" cy="9px" r="8px" fill="none"></circle>
+        </svg>
+</template>
+
+<template data-uri="application/progress/linear">
+		<div role="progressbar" class="pos-rel wt-full overflow-hidden apply-theme" dramatic-linearprogress="true" indeterminate="true">
+          <div class="progressbar-indicator-a progressbar-trail"></div>
+          <div class="progressbar-indicator-b"></div>
+        </div>
+</template>
+
+<template data-uri="application/progress/circular-36px">
+        <svg role="progressbar" style="width:36px; height:36px" viewBox="0 0 36 36" dramatic-circularprogress="true" indeterminate="true">
+          <circle class="progressbar-indicator progressbar-trail apply-color" cx="18px" cy="18px" r="15px" fill="none"></circle>
+        </svg>
+</template>
+
+<template data-uri="presentation/field/field">
+            
+                 <div data-role="field" class="pos-rel pd-md col-grows color-opacity-xl hover-color-opaque active-color-opaque with-hover-color with-active-color background-transparent border-opacity-sm active-border-opaque with-active-border-color" dramatic-field="bindings:{sequenceIn:{play:pulse};};">
+					
+                   <div class="border border-lft-md apply-theme radius-sm transition-background transition-fast">
+                     <label class="field-tap field-tooltip pd-hz-md pd-top-md pd-btm-sm d-block cursor-text">
+                       
+                       <div class="field-header pos-rel txt-smaller" style="font-size:96%">
+                         <div class="flex-y-center">
+                           <div class="field-label pos-rel bold"></div>
+                           <ul class="field-toolbar col-grows pd-hz-md flex-y-stretch color-opaque apply-color d-none"></ul>
+                         </div>
+                         <div class="field-desc opacity-md pd-top-sm d-none"></div>
+                       </div>
+                      
+                       <div class="pos-rel flex-y-center kids-pd-hz-md color-opaque apply-color">
+                         <div class="field-art mg-rt-md d-none"></div>
+                         <div class="field-content col-grows kids-wt-full pd-none"></div>
+                         <div class="field-cue mg-lft-md d-none"></div>
+                       </div>
+                      
+                     </label>
+                     
+                     <div class="pd-hz-md kids--pd-vt-sm color-opaque apply-color">
+                       <div class="field-alerts border-top-dashed with-border-color flex-y-end overflow-hidden d-none"></div>
+                     </div>
+                   </div>
+                  
+                 </div>
+
+</template>
+
+<template data-uri="presentation/field/field.minimalistic">
+            
+                 <div data-role="field" class="pos-rel pd-lg col-grows apply-theme color-opacity-xl hover-color-opaque active-color-opaque with-hover-color with-active-color background-transparent active-background-opaque with-active-background-color" dramatic-field="floatin-gLabel:true; bindings:{sequenceIn:{play:pulse};};" dramatic-ripples="target:.field-underline; orientation:x; opacity:1">
+
+                   <label class="field-tap field-tooltip d-block">
+                     <div class="field-header pos-rel txt-smaller" style="font-size:96%">
+                       <div class="field-label pos-rel bold transition-all transition-x-fast"></div>
+                       <div class="field-desc pd-top-sm opacity-md opacity-none transition-opacity transition-x-fast d-none"></div>
+                     </div>
+                    
+                     <div class="pos-rel flex-y-center kids-pd-hz-md cursor-text color-opaque apply-color">
+                       <div class="field-art mg-rt-md apply-color d-none"></div>
+                       <div class="field-content col-grows kids-wt-full pd-none"></div>
+                       <div class="field-cue mg-hz-sm apply-color d-none"></div>
+                     </div>
+  
+                     <div class="field-underline color-opaque apply-color">
+                       <span class="d-block opacity-sm" style="height:2.5px; background-color:currentColor;"></span>
+                     </div>
+                   </label>
+                    
+                   <div class="field-alerts kids--mg-vt-sm border-btm-dashed color-opaque apply-color with-border-color flex-y-end overflow-hidden d-none"></div>
+                  
+                 </div>
+
+</template>
+
+<template data-uri="presentation/overflowmenubutton/view">
+          <div role="presentation" class="flex-y-stretch">
+            <div class="presentation-main presentation-action col-grows flex-y-center background-transparent hover-background-opaque active-background-opaque apply-theme with-states cursor-pointer overflow-hidden">
+              <div class="col-grows flex-y-center" dramatic-ripples="true">
+                <div class="presentation-art square-50 d-flex flex-center d-none"></div>
+                <div class="col-grows presentation-insc pd-md pd-hz-lg hidden d-none">
+                  <div class="presentation-label txt-overflow d-none"></div>
+                  <div class="presentation-desc txt-smaller txt-overflow pd-vt-xs opacity-md d-none"></div>
+                </div>
+              </div>
+              <div class="presentation-cue wt-35 flex-center hidden d-none"></div>
+            </div>
+          </div>
+</template>
+
+<template data-uri="presentation/bar/view">
+          <div role="presentation">
+            <div class="flex-y-stretch kids--pd-sm kids--pd-hz-md kids--pd-hz-sm--on-sm">
+              <div class="presentation-main presentation-uri col-grows flex-y-center overflow-hidden">
+                <div class="presentation-art square-50 d-flex flex-center radius-full border border-opacity-sm with-border-color"></div>
+                <div class="col-grows presentation-insc pd-md pd-sm--on-sm d-none">
+                  <div class="presentation-label txt-overflow d-none"></div>
+                  <div class="presentation-desc txt-smaller txt-overflow pd-vt-xs opacity-md d-none"></div>
+                </div>
+                <div class="presentation-cue wt-35 flex-center d-none"></div>
+              </div>
+              <div class="presentation-options flex-y-stretch d-none"></div>
+            </div>
+          </div>
+</template>
+
+<template data-uri="presentation/media/slide/view">
+
+              <div role="playable" style="background-size:cover; background-position:center">
+                <div class="playable-link square-75 opacity-md hover-opacity-full active-opacity-full border border-md border-transparent active-border-opaque with-border-color with-active-border-color cursor-pointer" rel="link" style="background-size:cover; background-position:center"></div>
+              </div>
+
+</template>
+
+<template data-uri="presentation/search/view">
+    
+    <div role="search" class="flex-y-stretch kids--wt-full" dramatic-inputcollection="true">
+      
+      <div class="pos-rel flex-y-stretch kids-pd-hz-md color-opaque apply-color" role="search" dramatic-field="userole:search">
+        <label class="col-grows flex-y-stretch cursor-text">
+          <div class="search-art wt-75 flex-center">
+            <span class="fa fa-search"></span>
+          </div>
+          <div class="search-content col-grows flex-y-stretch kids--wt-full pd-none">
+            <input type="search" dramatic-textinput="true" placeholder="Filter result or new search">
+          </div>
+        </label>
+        <div class="search-advancedControl square-35 mg-rt-md d-flex flex-y-self-center flex-center with-theme-light background-transparent hover-background-opaque with-states radius-full cursor-pointer transition-all transition-fast" title="Advanced search">
+          <span class="fa fa-caret-down"></span>
+        </div>
+      </div>
+      
+      <div class="search-advanced d-none">
+        <div class="" dramatic-querybuilder="true">
+        </div>
+        <div class="flex-y-stretch">
+          <div class="search-savename col-grows flex-y-stretch kids-wt-full pd-none">
+            <input type="text" dramatic-textinput="true">
+          </div>
+          <div class="search-action col-grows flex-y-stretch kids-wt-full pd-none">
+            <button class="">GO</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+</template>
+
+<template data-uri="presentation/alert/listing">
+          
+          <ul data-role="listing" class="kids--mg-btm-sm kids--mg-btm-none--if-last list-style-none">
+          </ul>
+
+</template>
+
+<template data-uri="presentation/alert/view">
+
+              <div data-role="alert presentation" class="alert pos-rel radius-sm with-hover-shadow with-active-shadow apply-theme anim-shake">
+                
+                <div class="presentation-tap presentation-action txt-smaller">
+                  <div class="flex-y-center kids--pd-md">
+                    <div class="presentation-art flex-center border-rt border-opacity-xs apply-border-color"></div>
+                    <div class="presentation-label col-grows bold d-none"></div>
+                    <div class="presentation-descControl flex-center with-hover-background-color with-active-background-color cursor-pointer d-none">
+                      <span class="rotate-0 fa fa-chevron-down"></span>
+                    </div>
+                    <div class="presentation-close flex-center with-hover-background-color with-active-background-color cursor-pointer">
+                      <span class="fa fa-close"></span>
+                    </div>
+                  </div>
+                  <div class="flex-y-end kids--pd-md overflow-hidden" dramatic-collapsible="selectors:{main:{closest:.alert}; control:{main.find:.presentation-descControl}; controlIcon:{control.find:.fa};}; behaviours:{expanding || expanded:{main:active; controlIcon:rotate-180-clw};};" style="height:0px">
+                    <div class="presentation-desc wt-full pd-lft-lg border-top border-opacity-xs apply-border-color txt-smaller d-none"></div>
+                  </div>
+                </div>
+                
+              </div>
+            
+</template>
+
+<template data-uri="presentation/alert/listitem">
+
+			<li data-role="listitem" class="pos-rel">
+            </li>
+            
+</template>
+
+<template data-uri="presentation/alert/basic/view">
+
+              <div data-role="presentation alert" class="alert pos-rel radius-sm border border-opacity-md hover-border-opacity-lg active-border-opacity-xl apply-color apply-border-color with-states with-hover-background-color">
+                
+                <div class="presentation-tap presentation-action txt-smaller">
+                  <div class="flex-y-center kids--pd-sm">
+                    <div class="presentation-art txt-smaller kids--pd-xs flex-center border-rt border-opacity-xs apply-border-color d-none"></div>
+                    <div class="presentation-label col-grows d-none"></div>
+                    <div class="presentation-descControl flex-center with-hover-color with-active-color cursor-pointer d-none">
+                      <span class="rotate-0 txt-larger fa fa-angle-down"></span>
+                    </div>
+                    <div class="presentation-close flex-center with-hover-color with-active-color cursor-pointer">
+                      <span class="fa fa-close"></span>
+                    </div>
+                  </div>
+                  <div class="flex-y-end kids--pd-sm overflow-hidden" dramatic-collapsible="selectors:{main:{closest:.alert}; control:{main.find:.presentation-descControl}; controlIcon:{control.find:.fa};}; behaviours:{expanding || expanded:{main:active; controlIcon:rotate-180-clw};};" style="height:0px">
+                    <div class="presentation-desc wt-full pd-lft-md border-top border-opacity-xs apply-border-color txt-smaller d-none"></div>
+                  </div>
+                </div>
+                
+              </div>
+            
+</template>
+
+<template data-uri="presentation/product/thumbnail/view">
+        <div role="product" class="flex-y-stretch ht-400 txt-align-cntr" dramatic-state="userole:product; envQuery:TRUE; bindings:{is.hover:{background.class:active; price.play:{height:auto}}; !is.hover:{price.play:{height:0}};}">
+          <a href="" class="product-uri product-media wt-full d-flex flex-wrap flex-column with-theme-light with-states" role="media" component-uri="presentation/media">
+            <div class="media-background col-grows wt-full hover-opacity-md active-opacity-md transition-filter transition-x-fast" style="background-position:center center; background-size:cover;"></div>
+            <h5 class="pd-sm">
+              <div class="product-label pd-md"></div>
+              <span class="product-price pd-sm d-inline-block border-btm border-md pd-none ht-0 with-color-theme-primary overflow-hidden"></span>
+            </h5>
+          </a>
+        </div>
+
+</template>
+
+<template data-uri="presentation/post/thumbnail/view">
+        <div role="post">
+          <a href="" class="post-uri post-media wt-full radius-md overflow-hidden with-shadow shadow-blur-sm shadow-opacity-xs hover-shadow-opacity-sm with-theme-white with-states" role="media" component-uri="presentation/media">
+            <div class="media-background pos-rel ht-200 wt-full pd-md flex-x-separate flex-y-end bold with-color-theme-black txt-smaller" style="background-position:center center; background-size:cover;">
+              <div class="overlay with-theme-black opacity-xs h-over-opacity-none"></div>
+              <div class="pos-rel flex-y-center"><span class="fa fa-user mg-rt-sm"></span> <span class="post-author"></span></div>
+              <div class="pos-rel flex-y-center"><span class="fa fa-calendar mg-rt-sm"></span> <span class="post-created"></span></div>
+            </div>
+            <div class="pd-lg kids--pd-vt-sm">
+              <div class="post-label txt-xl bolder"></div>
+              <div class="post-desc"></div>
+            </div>
+          </a>
+        </div>
+
+</template>
+
+<template data-uri="layout/page/view">
+    <form role="page form" class="with-theme-white radius-sm overflow-hidden" method="post" enctype="multipart/form-data" dramatic-entity="userole:entity">
+      <section class="page-header mg-top-lg mg-btm-lg txt-align-cntr">
+        <div class="page-label h2 bolder apply-color"></div>
+        <div class="page-desc h6 mg-btm-md bolder color-opacity-lg apply-color"></div>
+        <div class="page-toolbar flex-x-center"></div>
+      </section>
+      <section class="page-content mg-btm-sm"></section>
+    </form>
+</template>
+
+<template data-uri="layout/page/auth/page">
+  <section role="page" class="theme-light border-opacity-sm background-color">
+    
+    <header class="page-header pos-rel z-index-50">
+      <nav class="pos-fxd-top wt-full d-flex flex-center background-color border-btm border-color">
+        <a class="pd-xs" href=""><img class="max-ht-35" src="/assets/static/img/logo.fw.png"></a>
+      </nav>
+    </header>
+    
+    <article class="col-4 kids-pd-md flex-y-center" style="min-height:95vh; margin-left:auto; margin-right:auto;">
+      <form class="page-main wt-full">
+        <h1 class="page-headline txt-align-cntr"></h1>
+      </form>
+    </article>
+    
+    <footer class="page-footer txt-align-cntr">
+    </footer>
+    
+  </section>
+
+</template>
+
+<template data-uri="layout/page/cart/view">
+  <main role="view">
+    
+    <section class="flex-y-stretch pd-md border-hz-dashed with-border-color">
+      <div class="view-primary col-9 mg-auto" style="min-height:75vh">
+      </div>
+    </section>
+        
+  </main>
+
+</template>
+
+<template data-uri="layout/page/shop/buy/view">
+  <main role="main order">
+    <div class="main-content" style="min-height:75vh">
+    
+      <form role="product" component-uri="presentation/product" class="order-product flex-y-stretch pd-md kids--pd-md" id="order-form" dramatic-inputcollection="true">
+        
+        <input type="text" dramatic-textinput="true" name="id" class="order-id wt-0 ht-0">
+        
+        <div class="col-8 col-grow flex-y-stretch">
+          <div class="product-galleryContainer square-container d-flex flex-y-stretch wt-full kids--wt-full"></div>
+        </div>
+        
+        <div class="col-grows pd-hz-lg">
+            <div class="product-label h2 apply-color"></div>
+            
+            <br>
+            
+            <div class="flex-x-separate flex-y-center">
+              <span class="product-price h2 pd-btm-sm border-btm border-md border-opaque with-border-color with-color define-theme-primary"></span>
+            </div>
+            
+            <div class="kids--pd-md kids--mg-top-lg kids--border kids--with-border-color">
+              
+              <div class="order-size radius-sm">
+                <h5 class="bold">Size</h5>
+              </div>
+              
+              <div class="order-color radius-sm">
+                <h5 class="bold">Color</h5>
+              </div>
+              
+              <div class="order-alerts d-none"></div>
+              
+              <div class="flex-y-center border-none">
+                <button dramatic-button="selectors:{progress:{siblings:.progress};}" name="action" value="order" type="submit" class="d-inline-block pd-md pd-hz-lg bold border with-theme-primary-alt with-shadow with-states radius-sm">
+                  <span class="mg-rt-md fa fa-shopping-cart"></span> Order Now
+                </button>
+                <div class="progress mg-lft-md d-none"></div>
+              </div>
+              
+              <div class="radius-sm">
+                <h5 class="bold">Description</h5>
+                <p class="product-desc"></p>
+              </div>
+            </div>
+        </div>
+      </form>
+
+    </div>
+  </main>
+
+</template>
+
+<template data-uri="layout/page/shop/view">
+  <main role="main">
+    
+    <section class="flex-x-center flex-wrap pd-md border-hz-dashed with-border-color">
+      <!--<div class="wt-full flex-x-end">Men</div>-->
+      <div class="main-content col-9 mg-auto" style="min-height:75vh">
+        <span class="i">No products found!</span>
+      </div>
+    </section>
+        
+  </main>
+
+</template>
+
+<template data-uri="layout/page/blog/view">
+  <main role="main">
+    
+    <section class="flex-x-center flex-wrap pd-md border-hz-dashed with-border-color">
+      <h1 class="main-title col-9 txt-align-cntr mg-vt-lg">BLOG</h1>
+      <div class="main-content col-9 mg-auto" style="min-height:75vh"></div>
+    </section>
+        
+  </main>
+
+</template>
+
+<template data-uri="layout/page/blog/read/view">
+  <main role="main post" class="flex-x-center pd-lg" component-uri="presentation/post">
+    <div class="post-banner post-media col-9 mg-auto with-theme-light" role="media" component-uri="presentation/media" style="min-height:75vh">
+  
+      <div class="media-background pos-rel ht-400 wt-full pd-md flex-x-separate flex-y-end bold with-color-theme-black" style="background-position:center center; background-size:cover;">
+        <div class="overlay with-theme-black opacity-xs hover-opacity-none"></div>
+        <div class="pos-rel flex-y-center"><span class="fa fa-user mg-rt-sm"></span> <span class="post-author"></span></div>
+        <div class="pos-rel flex-y-center"><span class="fa fa-calendar mg-rt-sm"></span> <span class="post-created"></span></div>
+      </div>
+      <div class="pd-lg kids--pd-vt-md">
+        <h1 class="post-label bold"></h1>
+        <span class="post-desc"></span>
+      </div>
+    
+    </div>
+  </main>
+
+</template>
+
+<template data-uri="layout/page/home/view">
+  <main role="main" class="border-hz-dashed with-border-color">
+    
+    <div class="max-wt-1000 mg-auto pd-vt-md">
+      <section class="main-banner pos-rel mg-top-sm pd-sm z-index-10">
+        <div class="main-galleryContainer wt-full kids--wt-full flex-y-stretch" style="min-height:75vh; background-position:center center; background-size:cover;"></div>
+      </section>
+      
+      <div class="mg-vt-lg flex-y-center kids--col-grows">
+        <div class="border with-border-color"></div>
+        <h1 class="pd-sm flex-x-center with-color">Our Collections</h1>
+        <div class="border with-border-color"></div>
+      </div>
+      
+      <ul class="main-content flex-x-center kids--col-4 kids--col-6--on-md kids--col-12--on-sm flex-wrap kids--ht-250 kids--pd-sm h2 define-theme-white apply-col-or list-style-none" style="color:black">
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=shoe" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/shoes/GUEST_b1f9590c-a7bd-4e3b-9e0a-c72d587c67c9.jfif) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>SHOES</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch" style="min-height:50%">
+          <a href="https://www.fashiontunnel.com/shop/?category=bag" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/bags/00477230512925.JPG) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>BAGS</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=accessories" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/accessories/timthumb.php.jfif) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>ACCESSORIES</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=clothing" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/clothing/rrrr.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>READY-TO-WEAR</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/accessories/77319642-fashion-design-woman-accessories-set-pastel-colors-cosmetic-makeup-glamor-fashion-shoes-heels-trendy.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>SHOP NOW</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+        
+  </main>
+
+</template>
+
+<template data-uri="layout/page/home/view2">
+  <main role="main" class="border-hz-dashed with-border-color">
+    
+    <div class="max-wt-1000 mg-auto pd-vt-md">
+      <section class="main-banner pos-rel mg-top-sm pd-sm z-index-10">
+        <div class="main-galleryContainer wt-full kids--wt-full flex-y-stretch border-hz border-lg with-border-theme-primary border-opaque" style="min-height:75vh; background-position:center center; background-size:cover;"></div>
+      </section>
+      
+      <div class="mg-vt-lg flex-y-center kids--col-grows">
+        <div class="border with-border-color"></div>
+        <h1 class="pd-sm flex-x-center with-color">Our Collections</h1>
+        <div class="border with-border-color"></div>
+      </div>
+      
+      <ul class="main-content flex-x-center kids--col-4 flex-wrap kids--ht-250 kids--pd-sm h2 define-theme-black apply-color list-style-none" style="co-lor:black">
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=shoe" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/shoes/GUEST_b1f9590c-a7bd-4e3b-9e0a-c72d587c67c9.jfif) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-sm hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>SHOES</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch" style="min-height:50%">
+          <a href="https://www.fashiontunnel.com/shop/?category=bag" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/bags/00477230512925.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-sm hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>BAGS</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=accessories" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/accessories/timthumb.php.jfif) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-sm hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>ACCESSORIES</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=clothing" class="wt-full pd-lg flex-center" style="background:url(/assets/img/Portfolio_3_9.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-sm hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>READY-TO-WEAR</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/accessories/77319642-fashion-design-woman-accessories-set-pastel-colors-cosmetic-makeup-glamor-fashion-shoes-heels-trendy.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-sm hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>EVERYTHING</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+        
+  </main>
+
+</template>
+
+<template data-uri="layout/site/app/view">
+  <section role="layout" class="with-theme-white border-opacity-sm" style="background-color:cornsilk !important">
+    
+    <header class="layout-header pos-sticky-top apply-theme with-shadow shadow-blur-sm shadow-spread-in-xs shadow-btm-xs shadow-opacity-lg z-index-50" style="background-color:white !important">
+      <nav class="layout-menu flex-y-stretch kids--col-grows kids--border-rt-dashed kids--border-rt-none--if-last wt-full pd-hz-lg">
+        <div class=""></div>
+        <ul class="flex-center global-links col-7 kids--mg-hz-md list-style-none">
+          <li><a class="flex-y-center ht-50 border-btm border-md border-transparent active-border-opacity-xl apply-border-color apply-color with-states" href="https://www.fashiontunnel.com/app/setup/">SETUP</a></li>
+          <li><a class="flex-y-center ht-50 border-btm border-md border-transparent active-border-opacity-xl apply-border-color apply-color with-states" href="https://www.fashiontunnel.com/app/io/">I/O</a></li>
+        </ul>
+        <div class=""></div>
+      </nav>
+    </header>
+        
+    <div class="layout-breadcrumb pd-hz-lg pd-vt-md txt-sm"></div><!---->
+    
+    <section class="pos-rel pd-hz-lg border-hz-dashed border-opacity-sm apply-border-color">
+      <article class="layout-content flex-y-stretch kids--wt-full" style="min-height:75vh"></article>
+    </section>
+    
+    <footer class="layout-footer txt-align-cntr">
+      <div class="pd-lg txt-sm txt-align-cntr">© <span class="date-year"></span> Ox-Harris Creative</div>
+    </footer>
+    
+  </section>
+
+</template>
+
+<template data-uri="layout/site/view">
+  <section role="layout" class="pd-vt-sm kids--pd-sm define-theme-white border-opacity-sm apply-background-color">
+    
+    <header class="layout-header">
+      
+      <section class="flex-center">
+        <a href=""><img src="index_files/logo.png" class="max-ht-35"></a>
+      </section>
+      
+    </header>
+    
+    <nav class="pos-sticky-top flex-y-center border-hz-dashed apply-border-color apply-background-color z-index-50">
+      <ul class="col-2 flex-y-center pd-lft-lg kids--mg-hz-md list-style-none">
+        <!--
+        <li class="flex-y-center"><span class="fa fa-phone"></span><a class="pd-lft-md opacity-lg hover-opacity-full" href="tel://+2348023538140">+234-802-353-8140</a></li>
+        -->
+      </ul>
+      <ul class="col-8 flex-center kids--pd-md menu-links list-style-none">
+        <li><a href="https://www.fashiontunnel.com/shop/" class="opacity-lg hover-opacity-full active-opacity-full active-cursor-default">SHOP</a></li>
+        <li><a href="https://www.fashiontunnel.com/blog/" class="opacity-lg hover-opacity-full active-opacity-full active-cursor-default">BLOG</a></li>
+        <li><a href="#/contact/" class="opacity-lg hover-opacity-full active-opacity-full active-cursor-default">CONTACT</a></li>
+      </ul>
+      <ul class="col-2 flex-x-end flex-y-center pd-rt-lg kids--mg-hz-md list-style-none d-none--on-md">
+        <li><a href="#search" class="fa fa-search opacity-lg hover-opacity-full"></a></li>
+        <li><a href="https://www.fashiontunnel.com/cart/" class="fa fa-shopping-cart opacity-lg hover-opacity-full"></a></li>
+        <li><a href="https://www.fashiontunnel.com/auth/" class="square-25 d-flex flex-center radius-full border with-theme-dark opacity-lg hover-opacity-full"></a></li>
+      </ul>
+    </nav>
+    
+    <section class="layout-content">
+    </section>
+    
+    <footer class="layout-footer kids--pd-md">
+        
+      <div class="flex-center kids--pd-hz-md border-hz-dashed with-border-color">
+        <!--
+        <a href="" class="flex-y-center pd-none opacity-md hover-opacity-lg">
+          <img src="/assets/img/logo.png" class="max-ht-35" /> 
+        </a>
+        -->
+        <a href="https://www.instagram.com/fashiontnnel/" class="opacity-md hover-opacity-lg fa fa-instagram"></a>
+        <a href="https://web.facebook.com/Fashion-Tunnel-190316854350454/" class="opacity-md hover-opacity-lg fa fa-facebook"></a>
+        <a href="https://twitter.com/fashiontnnel" class="opacity-md hover-opacity-lg fa fa-twitter"></a>
+      </div>
+      
+      <div class="flex-center kids--pd-md txt-smaller">
+        <a href="" class="opacity-md hover-opacity-lg">About</a>
+        <a href="" class="opacity-md hover-opacity-lg">Contact</a>
+        <a href="" class="opacity-md hover-opacity-lg">Privacy Policy</a>
+        <a href="" class="opacity-md hover-opacity-lg">Returns Policy</a>
+      </div>
+      
+      <div class="txt-smaller opacity-md txt-align-cntr">© <span class="date-year"></span> fashionTunnel Ltd.</div>
+      
+    </footer>
+    
+  </section>
+
+</template>
+
+<template data-uri="layout/listing/view">
+        <ul role="listing" class="list-style-none"></ul>
+
+</template>
+
+<template data-uri="layout/listing/grid/view">
+      <ul class="flex-y-stretch flex-wrap kids--pd-md kids--col-4 kids--col-12--on-md list-style-none">
+	  </ul>
+</template>
+
+<template data-uri="layout/listing/slideshow/view">
+          
+        <div role="player listing" class="flex-y-stretch" dramatic-player="state:{items:{0:{selected:TRUE;};};}; orientation:horizontal;" tabindex="-1">
+         
+          <div class="player-linksContainer pos-abs-top pd-md d-flex flex-column flex-wrap z-index-10"></div>
+          
+          <div class="pos-rel col-grows flex-y-stretch with-theme">
+            
+            <div class="player-navsContainer overlay d-flex flex-x-separate flex-y-center z-index-10 pointer-events-none kids--pointer-events">
+              <div class="pos-rel square-75 d-flex flex-center color-opacity-lg hover-color-opaque apply-color with-states cursor-pointer" rel="prev">
+                <span class="fa fa-chevron-left"></span>
+              </div>
+              <div class="pos-rel square-75 d-flex flex-center color-opacity-lg hover-color-opaque apply-color with-states cursor-pointer" rel="next">
+                <span class="fa fa-chevron-right"></span>
+              </div>
+            </div>
+            
+            <ul class="player-body overflow-hidden list-style-none"></ul>
+            
+          </div>
+        </div>
+
+</template>
+
+<template data-uri="layout/bar/listing">
+      
+      <ul role="listing" class="flex-y-stretch kids--background-opacity-sm kids--hover-background-opaque kids--active-background-opaque kids--apply-background-color kids--with-states list-style-none" dramatic-toolbar="state:{items:{*:{restored:TRUE;};};}" dramatic-container="breakpoints:{xs:100; sm:300; md:500; lg:700; xl:900};">
+      </ul>
+
+</template>
+
+<template data-uri="layout/bar/flex/listing">
+      
+      <ul class="flex-y-stretch kids--border-rt-dashed kids--border-rt-none--if-last list-style-none" dramatic-list="state:{items:{*:{restored:TRUE;};};}">
+      </ul>
+
+</template>
+
+<template data-uri="layout/bar/flex/listitem">
+        
+        <li role="listitem" class="flex-y-stretch apply-theme with-states transition-all transition-easeout overflow-hidden" dramatic-listitem="triggers:{controlExpand.click:select; controlCollapse.click:restore}; containerQuery:TRUE; bindings:{!selected:{controls.class:d-none};};">
+          <div class="listitem-controlExpand listitem-body col-grows flex-y-stretch kids--wt-full"></div>
+          <div class="listitem-controls flex-x-end flex-y-center kids--pd-md kids--border-lft kids--apply-border-color d-none">
+            <div class="listitem-controlCollapse wt-50 flex-x-center cursor-pointer"><span class="fa fa-close"></span></div>
+          </div>
+        </li>
+
+</template>
+
+<template data-uri="layout/bar/view">
+          <div role="presentation" class="item-presentation flex-y-center pd-md kids--pd-sm cursor-pointer">
+            <div class="presentation-art flex-center txt-lg"></div>
+            <div class="presentation-label d-none"></div>
+          </div>
+</template>
+
+<template data-uri="layout/bar/listitem">
+        
+        <li role="listitem" class="flex-y-stretch border-top border-transparent hover-border-opaque apply-border-color with-states overflow-hidden">
+          <div class="listitem-body flex-x-center flex-y-stretch"></div>
+        </li>
+
+</template>
+
+<template data-uri="layout/listitem/view">
+          <li role="listitem" class="pos-rel apply-theme with-states"></li>
+</template>
+
+<template data-uri="layout/listitem/option/view">
+
+	<option dramatic-item="contexts:{list:selectInput}; triggers:{click:select}"></option>
+</template>
+
+<template data-uri="layout/listitem/option/tile/view">
+
+	<!--  otherEffects:flash, rubberBand, tada, wobble, jello, vanishIn, rollIn, foolishIn, swashIn, tinDownIn; -->
+	<li role="option" class="flex-y-stretch kids--wt-full border-transparent with-border-color transition-padding transition-x-fast cursor-default" dramatic-item="userole:option; contexts:{list:selectInput}; triggers:{click:select}; bindings:{sequenceIn:{play:fade_in_up}; selected:{class:border border-md; label.play:foolishIn};}" style="background-color:black; opacity:1">
+      <span class="option-label flex-center apply-theme"></span>
+    </li>
+</template>
+
+<template data-uri="layout/listitem/thumbnail/view">
+        <li class="flex-y-stretch kids--wt-full">
+        </li>
+
+</template>
+
+<template data-uri="layout/listitem/overlay/view">
+          
+            <li role="listitem" class="overlay pos-abs-top-lft d-flex flex-y-stretch kids--wt-full" dramatic-playableitem="true">
+			</li>
+</template>
+
+<template data-uri="layout/treeitem/view">
+          <li role="treeitem node" style="opacity:1" class="flex-y-start border-lft border-lft-md border-transparent hover-border-opaque active-border-opaque background-opaque apply-theme with-states overflow-hidden" dramatic-collapsiblenode="userole:listitem; orientation:vertical; triggers:{treeControl.click:toggleTree}; selectors:{treeControlIcon:{control.find:.fa};}; bindings:{sequenceIn:{play:swap}; hidden || showing:{css:{height:0};}; minimized:{listing.class:ht-0}; maximizing || maximized:{listing.class:pd-md; control.class:rotate-90-clw active;};}">
+            <div class="wt-35 ht-75 flex-center">
+              <div class="treeitem-control square-25 d-flex flex-center with-theme-light background-transparent hover-background-opaque with-states radius-full cursor-pointer transition-all transition-fast d-none" title="Expand/Collapse">
+                <span class="fa fa-angle-right"></span>
+              </div>
+            </div>
+            <div class="treeitem-body col-grows kids--wt-full"></div>
+          </li>
+</template>
+
+<!-- BASE URI --><!-- TITLE --><title>Welcome to FashionTunnel - Fashion Tunnel
+</title>
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]--><!--
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-59484537-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  -->
+</head>
+<body>
+<section role="layout" class="pd-vt-sm kids--pd-sm define-theme-white border-opacity-sm apply-background-color" import-id="2" component-uri="layout/site//layout/page/home"><header class="layout-header"><section class="flex-center"><a href=""><img src="index_files/logo.png" class="max-ht-35"></a>
+      </section></header><nav class="pos-sticky-top flex-y-center border-hz-dashed apply-border-color apply-background-color z-index-50"><ul class="col-2 flex-y-center pd-lft-lg kids--mg-hz-md list-style-none"><!--
+        <li class="flex-y-center"><span class="fa fa-phone"></span><a class="pd-lft-md opacity-lg hover-opacity-full" href="tel://+2348023538140">+234-802-353-8140</a></li>
+        --></ul>
+<ul class="col-8 flex-center kids--pd-md menu-links list-style-none">
+<li><a href="https://www.fashiontunnel.com/shop/" class="opacity-lg hover-opacity-full active-opacity-full active-cursor-default">SHOP</a></li>
+        <li><a href="https://www.fashiontunnel.com/blog/" class="opacity-lg hover-opacity-full active-opacity-full active-cursor-default">BLOG</a></li>
+        <li><a href="#/contact/" class="opacity-lg hover-opacity-full active-opacity-full active-cursor-default">CONTACT</a></li>
+      </ul>
+<ul class="col-2 flex-x-end flex-y-center pd-rt-lg kids--mg-hz-md list-style-none d-none--on-md">
+<li><a href="#search" class="fa fa-search opacity-lg hover-opacity-full"></a></li>
+        <li><a href="https://www.fashiontunnel.com/cart/" class="fa fa-shopping-cart opacity-lg hover-opacity-full"></a></li>
+        <li><a href="https://www.fashiontunnel.com/auth/" class="square-25 d-flex flex-center radius-full border with-theme-dark opacity-lg hover-opacity-full"></a></li>
+      </ul></nav><section class="layout-content"><main role="main" class="border-hz-dashed with-border-color page-main" import-id="3" component-uri="layout/page/home"><div class="max-wt-1000 mg-auto pd-vt-md">
+      <section class="main-banner pos-rel mg-top-sm pd-sm z-index-10"><div class="main-galleryContainer wt-full kids--wt-full flex-y-stretch" style="min-height:75vh; background-position:center center; background-size:cover;"><div role="player listing" class="flex-y-stretch main-gallery" dramatic-player="state:{items:{0:{selected:TRUE;};};}; orientation:horizontal;" tabindex="-1" import-id="4" component-uri="layout/listing/slideshow//layout/listitem/overlay//presentation/media/slide">
+         
+          <div class="player-linksContainer pos-abs-top pd-md d-flex flex-column flex-wrap z-index-10"></div>
+          
+          <div class="pos-rel col-grows flex-y-stretch with-theme">
+            
+            <div class="player-navsContainer overlay d-flex flex-x-separate flex-y-center z-index-10 pointer-events-none kids--pointer-events">
+              <div class="pos-rel square-75 d-flex flex-center color-opacity-lg hover-color-opaque apply-color with-states cursor-pointer" rel="prev">
+                <span class="fa fa-chevron-left"></span>
+              </div>
+              <div class="pos-rel square-75 d-flex flex-center color-opacity-lg hover-color-opaque apply-color with-states cursor-pointer" rel="next">
+                <span class="fa fa-chevron-right"></span>
+              </div>
+            </div>
+            
+            <ul class="player-body overflow-hidden list-style-none">
+<li role="listitem" class="overlay pos-abs-top-lft d-flex flex-y-stretch kids--wt-full gallery-item" dramatic-playableitem="true" import-id="5" component-uri="layout/listitem/overlay//presentation/media/slide">
+<div role="playable" style="background-size:cover; background-position:center; background-image:url(/assets/img/Portfolio_I_15.jpg)" import-id="6" component-uri="presentation/media/slide" class="item-content">
+                <div class="playable-link square-75 opacity-md hover-opacity-full active-opacity-full border border-md border-transparent active-border-opaque with-border-color with-active-border-color cursor-pointer" rel="link" style="background-size:cover; background-position:center; background-image:url(/assets/img/Portfolio_I_15.jpg)"></div>
+              </div>
+			</li>
+<li role="listitem" class="overlay pos-abs-top-lft d-flex flex-y-stretch kids--wt-full" dramatic-playableitem="true" import-id="10" component-uri="layout/listitem/overlay//presentation/media/slide">
+<div role="playable" style="background-size:cover; background-position:center; background-image:url(/assets/img/slider-1.jpg)" import-id="11" component-uri="presentation/media/slide" class="1-content">
+                <div class="playable-link square-75 opacity-md hover-opacity-full active-opacity-full border border-md border-transparent active-border-opaque with-border-color with-active-border-color cursor-pointer" rel="link" style="background-size:cover; background-position:center; background-image:url(/assets/img/slider-1.jpg)"></div>
+              </div>
+			</li>
+<li role="listitem" class="overlay pos-abs-top-lft d-flex flex-y-stretch kids--wt-full" dramatic-playableitem="true" import-id="15" component-uri="layout/listitem/overlay//presentation/media/slide">
+<div role="playable" style="background-size:cover; background-position:center; background-image:url(/assets/img/Portfolio_I_15.jpg)" import-id="16" component-uri="presentation/media/slide" class="2-content">
+                <div class="playable-link square-75 opacity-md hover-opacity-full active-opacity-full border border-md border-transparent active-border-opaque with-border-color with-active-border-color cursor-pointer" rel="link" style="background-size:cover; background-position:center; background-image:url(/assets/img/Portfolio_I_15.jpg)"></div>
+              </div>
+			</li>
+</ul>
+</div>
+        </div></div>
+      </section><div class="mg-vt-lg flex-y-center kids--col-grows">
+        <div class="border with-border-color"></div>
+        <h1 class="pd-sm flex-x-center with-color">Our Collections</h1>
+        <div class="border with-border-color"></div>
+      </div>
+      
+      <ul class="main-content flex-x-center kids--col-4 kids--col-6--on-md kids--col-12--on-sm flex-wrap kids--ht-250 kids--pd-sm h2 define-theme-white apply-col-or list-style-none" style="color:black">
+<li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=shoe" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/shoes/GUEST_b1f9590c-a7bd-4e3b-9e0a-c72d587c67c9.jfif) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>SHOES</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch" style="min-height:50%">
+          <a href="https://www.fashiontunnel.com/shop/?category=bag" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/bags/00477230512925.JPG) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>BAGS</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=accessories" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/accessories/timthumb.php.jfif) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>ACCESSORIES</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/?category=clothing" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/clothing/rrrr.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>READY-TO-WEAR</span>
+          </a>
+        </li>
+        <li class="flex-y-stretch">
+          <a href="https://www.fashiontunnel.com/shop/" class="wt-full pd-lg flex-center" style="background:url(/assets/img/collection/accessories/77319642-fashion-design-woman-accessories-set-pastel-colors-cosmetic-makeup-glamor-fashion-shoes-heels-trendy.jpg) center center; background-size:cover;">
+            <div class="overlay apply-background-color opacity-lg hover-opacity-none transition-filter transition-x-fast"></div>
+            <span class="pos-rel z-index-10"><span class="fa fa-angle-right mg-rt-md"></span>SHOP NOW</span>
+          </a>
+        </li>
+      </ul>
+</div>
+        
+  </main></section><footer class="layout-footer kids--pd-md"><div class="flex-center kids--pd-hz-md border-hz-dashed with-border-color">
+        <!--
+        <a href="" class="flex-y-center pd-none opacity-md hover-opacity-lg">
+          <img src="/assets/img/logo.png" class="max-ht-35" /> 
+        </a>
+        -->
+        <a href="https://www.instagram.com/fashiontnnel/" class="opacity-md hover-opacity-lg fa fa-instagram"></a>
+        <a href="https://web.facebook.com/Fashion-Tunnel-190316854350454/" class="opacity-md hover-opacity-lg fa fa-facebook"></a>
+        <a href="https://twitter.com/fashiontnnel" class="opacity-md hover-opacity-lg fa fa-twitter"></a>
+      </div>
+      
+      <div class="flex-center kids--pd-md txt-smaller">
+        <a href="" class="opacity-md hover-opacity-lg">About</a>
+        <a href="" class="opacity-md hover-opacity-lg">Contact</a>
+        <a href="" class="opacity-md hover-opacity-lg">Privacy Policy</a>
+        <a href="" class="opacity-md hover-opacity-lg">Returns Policy</a>
+      </div>
+      
+      <div class="txt-smaller opacity-md txt-align-cntr">© <span class="date-year">2020</span> fashionTunnel Ltd.</div>
+      
+    </footer></section>
+  
+  <!--
+  <main>
+    <article>
+    <div class="mm-nn">nn-content</div>
+    <div class="oo-pp">pp-content</div>
+    <header class="body-banner">
+      <div class="banner-content">banner1-content
+      </div>
+    </header>
+    </article>
+  
+    <header class="body-banner" banner:composition="*:{content.importAfter:presentation}">
+      <div class="banner-content">banner2-content
+      </div>
+    </header>
+  </main>
+  -->
+
+  <script class="assets-domain-add" src="index_files/jquery-1.js"></script><script class="assets-domain-add" src="index_files/jquery.js"></script><script class="assets-domain-add" src="index_files/hammer.js"></script><script class="assets-domain-add" src="index_files/html-imports.js"></script><script class="assets-domain-add" src="index_files/web-animations.js"></script><script class="assets-domain-add" src="index_files/dramatic.js"></script><script class="assets-domain-add" src="index_files/utils.js"></script><script class="assets-domain-add" src="index_files/client.js"></script><script class="assets-domain-add" src="index_files/component.html"></script><script class="assets-domain-add" src="index_files/request.html"></script><script class="assets-domain-add" src="index_files/collection.html"></script><script class="assets-domain-add" src="index_files/transition.js"></script><script class="assets-domain-add" src="index_files/ui.html"></script><script class="assets-domain-add" src="index_files/collapsible.js"></script><script class="assets-domain-add" src="index_files/popup.js"></script><script class="assets-domain-add" src="index_files/form.js"></script><script class="assets-domain-add" src="index_files/view.js"></script><script class="document-scripts">
+  setTimeout(() => {
+	  //alert(document.nodeName);
+	  //$('header').repeat();
+	  $(document).view('document', {'arr.each(...(i, val))': {'`ITEM-` + i + `: ` + val': {'body.banner.content.element.repeatBefore(i).html': '$'},},}).render({arr:['one', 'two'], title:'How are you?', s:'Supplimentary222222222',});
+  }, 4000);
+  //console.log($('html').viewpie('document', {}, {cascades:true}).body.banner.content.element.length);
+  //console.log($('html').viewpie('document').title.html('banner.content.element.length'));
+  </script>
+
+
+</body></html>

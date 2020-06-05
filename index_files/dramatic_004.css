@@ -1,0 +1,385 @@
+
+
+/**
+ * ----------------------
+ * OPACITY
+ * ----------------------
+ */
+
+.opacity-xs,
+.hover-opacity-xs:hover,
+.hover-opacity-xs[aria-highlighted],
+/* active */
+.active-opacity-xs:active,
+.active-opacity-xs.active,
+.active-opacity-xs[aria-selected="true"],
+.active-opacity-xs[aria-checked="true"],
+.active-opacity-xs[aria-current^="false"],
+/* focus & target */
+.focus-opacity-xs:focus,
+.target-opacity-xs:target {
+	-moz-opacity:0.125 !important;
+	-webkit-opacity:0.125 !important;
+	opacity:0.125 !important;
+}
+.opacity-sm,
+.hover-opacity-sm:hover,
+.hover-opacity-sm[aria-highlighted],
+/* active */
+.active-opacity-sm:active,
+.active-opacity-sm.active,
+.active-opacity-sm[aria-selected="true"],
+.active-opacity-sm[aria-checked="true"],
+.active-opacity-sm[aria-current^="false"],
+/* focus & target */
+.focus-opacity-sm:focus,
+.target-opacity-sm:target {
+	-moz-opacity:0.25 !important;
+	-webkit-opacity:0.25 !important;
+	opacity:0.25 !important;
+}
+.opacity-md,
+.hover-opacity-md:hover,
+.hover-opacity-md[aria-highlighted],
+/* active */
+.active-opacity-md:active,
+.active-opacity-md.active,
+.active-opacity-md[aria-selected="true"],
+.active-opacity-md[aria-checked="true"],
+.active-opacity-md[aria-current^="false"],
+/* focus & target */
+.focus-opacity-md:focus,
+.target-opacity-md:target {
+	-moz-opacity:0.5 !important;
+	-webkit-opacity:0.5 !important;
+	opacity:0.5 !important;
+}
+.opacity-lg,
+.hover-opacity-lg:hover,
+.hover-opacity-lg[aria-highlighted],
+/* active */
+.active-opacity-lg:active,
+.active-opacity-lg.active,
+.active-opacity-lg[aria-selected="true"],
+.active-opacity-lg[aria-checked="true"],
+.active-opacity-lg[aria-current^="false"],
+/* focus & target */
+.focus-opacity-lg:focus,
+.target-opacity-lg:target {
+	-moz-opacity:0.75 !important;
+	-webkit-opacity:0.75 !important;
+	opacity:0.75 !important;
+}
+.opacity-xl,
+.hover-opacity-xl:hover,
+.hover-opacity-xl[aria-highlighted],
+/* active */
+.active-opacity-xl:active,
+.active-opacity-xl.active,
+.active-opacity-xl[aria-selected="true"],
+.active-opacity-xl[aria-checked="true"],
+.active-opacity-xl[aria-current^="false"],
+/* focus & target */
+.focus-opacity-xl:focus,
+.target-opacity-xl:target {
+	-moz-opacity:0.95 !important;
+	-webkit-opacity:0.95 !important;
+	opacity:0.95 !important;
+}
+.opacity-full,
+.hover-opacity-full:hover,
+.hover-opacity-full[aria-highlighted],
+/* active */
+.active-opacity-full:active,
+.active-opacity-full.active,
+.active-opacity-full[aria-selected="true"],
+.active-opacity-full[aria-checked="true"],
+.active-opacity-full[aria-current^="false"],
+/* focus & target */
+.focus-opacity-full:focus,
+.target-opacity-full:target {
+	-moz-opacity:1 !important;
+	-webkit-opacity:1 !important;
+	opacity:1 !important;
+}
+.opacity-none,
+.hover-opacity-none:hover,
+.hover-opacity-none[aria-highlighted],
+/* active */
+.active-opacity-none:active,
+.active-opacity-none.active,
+.active-opacity-none[aria-selected="true"],
+.active-opacity-none[aria-checked="true"],
+.active-opacity-none[aria-current^="false"],
+/* focus & target */
+.focus-opacity-none:focus,
+.target-opacity-none:target {
+	-moz-opacity:0 !important;
+	-webkit-opacity:0 !important;
+	opacity:0 !important;
+}
+
+/**
+ * ----------------------
+ * BLUR
+ * ----------------------
+ */
+
+.blur-xs,
+.hover-blur-xs:hover,
+.hover-blur-xs[aria-highlighted],
+/* active */
+.active-blur-xs:active,
+.active-blur-xs.active,
+.active-blur-xs[aria-selected="true"],
+.active-blur-xs[aria-checked="true"],
+.active-blur-xs[aria-current^="false"],
+/* focus & target */
+.focus-blur-xs:focus,
+.target-blur-xs:target {
+	-moz-filter:blur(1.25px) !important;
+	-webkit-filter:blur(1.25px) !important;
+	filter:blur(1.25px) !important;
+}
+.blur-sm,
+.hover-blur-sm:hover,
+.hover-blur-sm[aria-highlighted],
+/* active */
+.active-blur-sm:active,
+.active-blur-sm.active,
+.active-blur-sm[aria-selected="true"],
+.active-blur-sm[aria-checked="true"],
+.active-blur-sm[aria-current^="false"],
+/* focus & target */
+.focus-blur-sm:focus,
+.target-blur-sm:target {
+	-moz-filter:blur(2.5px) !important;
+	-webkit-filter:blur(2.5px) !important;
+	filter:blur(2.5px) !important;
+}
+.blur-md,
+.hover-blur-md:hover,
+.hover-blur-md[aria-highlighted],
+/* active */
+.active-blur-md:active,
+.active-blur-md.active,
+.active-blur-md[aria-selected="true"],
+.active-blur-md[aria-checked="true"],
+.active-blur-md[aria-current^="false"],
+/* focus & target */
+.focus-blur-md:focus,
+.target-blur-md:target {
+	-moz-filter:blur(5px) !important;
+	-webkit-filter:blur(5px) !important;
+	filter:blur(5px) !important;
+}
+.blur-lg,
+.hover-blur-lg:hover,
+.hover-blur-lg[aria-highlighted],
+/* active */
+.active-blur-lg:active,
+.active-blur-lg.active,
+.active-blur-lg[aria-selected="true"],
+.active-blur-lg[aria-checked="true"],
+.active-blur-lg[aria-current^="false"],
+/* focus & target */
+.focus-blur-lg:focus,
+.target-blur-lg:target {
+	-moz-filter:blur(7.5px) !important;
+	-webkit-filter:blur(7.5px) !important;
+	filter:blur(7.5px) !important;
+}
+.blur-xl,
+.hover-blur-xl:hover,
+.hover-blur-xl[aria-highlighted],
+/* active */
+.active-blur-xl:active,
+.active-blur-xl.active,
+.active-blur-xl[aria-selected="true"],
+.active-blur-xl[aria-checked="true"],
+.active-blur-xl[aria-current^="false"],
+/* focus & target */
+.focus-blur-xl:focus,
+.target-blur-xl:target {
+	-moz-filter:blur(9.5px) !important;
+	-webkit-filter:blur(9.5px) !important;
+	filter:blur(9.5px) !important;
+}
+.blur-none,
+.hover-blur-none:hover,
+.hover-blur-none[aria-highlighted],
+/* active */
+.active-blur-none:active,
+.active-blur-none.active,
+.active-blur-none[aria-selected="true"],
+.active-blur-none[aria-checked="true"],
+.active-blur-none[aria-current^="false"],
+/* focus & target */
+.focus-blur-none:focus,
+.target-blur-none:target {
+	-moz-filter:blur(0px) !important;
+	-webkit-filter:blur(0px) !important;
+	filter:blur(0px) !important;
+}
+ 
+/**
+ * ----------------------------
+ * INHERITANCE SHORTCUTS
+ * ----------------------------
+ */
+ 
+
+/* ---- COLOR ---- */
+ 
+.color-inherit {
+	color:inherit;
+}
+/* hover */
+.hover-color-inherit[aria-highlighted],
+.hover-color-inherit:hover {
+	color:inherit;
+}
+/* active */
+.active-color-inherit[aria-current],
+.active-color-inherit[aria-selected],
+.active-color-inherit[aria-checked],
+.active-color-inherit.active,
+.active-color-inherit:active {
+	color:inherit;
+}
+/* focus */
+.focus-color-inherit:focus {
+	color:inherit;
+}
+/* target */
+.target-color-inherit:target {
+	color:inherit;
+}
+/* disabled */
+.disabled-color-inherit:disabled {
+	color:inherit;
+}
+
+/* ---- BACKGROUND ---- */
+ 
+.background-color-inherit {
+	background-color:inherit;
+}
+/* hover */
+.hover-background-color-inherit[aria-highlighted],
+.hover-background-color-inherit:hover {
+	background-color:inherit;
+}
+/* active */
+.active-background-color-inherit[aria-current],
+.active-background-color-inherit[aria-selected],
+.active-background-color-inherit[aria-checked],
+.active-background-color-inherit.active,
+.active-background-color-inherit:active {
+	background-color:inherit;
+}
+/* focus */
+.focus-background-color-inherit:focus {
+	background-color:inherit;
+}
+/* target */
+.target-background-color-inherit:target {
+	background-color:inherit;
+}
+/* disabled */
+.disabled-background-color-inherit:disabled {
+	background-color:inherit;
+}
+
+/* --- BACKGROUND IMAGE ---*/
+
+.background-image-inherit {
+	background-image:inherit;
+}
+/* hover */
+.hover-background-image-inherit[aria-highlighted],
+.hover-background-image-inherit:hover {
+	background-image:inherit;
+}
+/* active */
+.active-background-image-inherit[aria-current],
+.active-background-image-inherit[aria-selected],
+.active-background-image-inherit[aria-checked],
+.active-background-image-inherit.active,
+.active-background-image-inherit:active {
+	background-image:inherit;
+}
+/* focus */
+.focus-background-image-inherit:focus {
+	background-image:inherit;
+}
+/* target */
+.target-background-image-inherit:target {
+	background-image:inherit;
+}
+/* disabled */
+.disabled-background-image-inherit:disabled {
+	background-image:inherit;
+}
+
+/* ---- BORDER ---- */
+ 
+.border-color-inherit {
+	border-color:inherit;
+}
+/* hover */
+.hover-border-color-inherit[aria-highlighted],
+.hover-border-color-inherit:hover {
+	border-color:inherit;
+}
+/* active */
+.active-border-color-inherit[aria-current],
+.active-border-color-inherit[aria-selected],
+.active-border-color-inherit[aria-checked],
+.active-border-color-inherit.active,
+.active-border-color-inherit:active {
+	border-color:inherit;
+}
+/* focus */
+.focus-border-color-inherit:focus {
+	border-color:inherit;
+}
+/* target */
+.target-border-color-inherit:target {
+	border-color:inherit;
+}
+/* disabled */
+.disabled-border-color-inherit:disabled {
+	border-color:inherit;
+}
+
+/* ---- SHADOW ---- */
+ 
+.shadow-inherit {
+	box-shadow:inherit;
+}
+/* hover */
+.hover-shadow-inherit[aria-highlighted],
+.hover-shadow-inherit:hover {
+	box-shadow:inherit;
+}
+/* active */
+.active-shadow-inherit[aria-current],
+.active-shadow-inherit[aria-selected],
+.active-shadow-inherit[aria-checked],
+.active-shadow-inherit.active,
+.active-shadow-inherit:active {
+	box-shadow:inherit;
+}
+/* focus */
+.focus-shadow-inherit:focus {
+	box-shadow:inherit;
+}
+/* target */
+.target-shadow-inherit:target {
+	box-shadow:inherit;
+}
+/* disabled */
+.disabled-shadow-inherit:disabled {
+	box-shadow:inherit;
+}
